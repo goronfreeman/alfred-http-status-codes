@@ -169,7 +169,7 @@
   },
   '420 (Spring Framework)' => {
     :name => 'Method Failure',
-    :description => ''
+    :description => 'This status code is deprecated by Spring.'
   },
   '420 (Twitter)' => {
     :name => 'Enhance Your Calm',
@@ -316,3 +316,5 @@
     :description => 'This status code is not specified in any RFCs, but is used by Microsoft HTTP proxies to signal a network connect timeout behind the proxy to a client in front of the proxy.'
   }
 }
+
+@statuses.default = {:name => 'Error', :description => 'Status code does not exist'}
