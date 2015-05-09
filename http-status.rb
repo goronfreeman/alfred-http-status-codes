@@ -1,8 +1,19 @@
-load './definitions.rb'
-print 'Enter HTTP status code: '
+load 'definitions.rb'
+load 'alfred_feedback.rb'
 
-code_from_user = gets.chomp
+code_from_user = ARGV.first
 status = @statuses[code_from_user]
 
-print status[:name] + ' - '
-puts status[:description]
+feedback = Feedback.new
+feedback.add_item({
+  :title        => "#{status[:name]}",
+  :subtitle     => "#{status[:description]}",
+  :uid          => 'http',
+  :arg          => "#{status[:info]}",
+  :autocomplete => 'HTTP',
+  :icon         => {
+    :type       => 'filetype',
+    :name       => 'icon.png'
+  }
+})
+puts feedback.to_xml
