@@ -1,20 +1,24 @@
 load 'definitions.rb'
 load 'alfred_feedback.rb'
+load 'autocomplete.rb'
 
-code_from_user = ARGV.first
-# exit 1 unless code_from_user.length == 3
-status = @statuses[code_from_user]
+ac = Autocomplete.new(@statuses.keys)
 
+code_from_user = ARGV[0]
+suggestions = ac.autocomplete(code_from_user).take(5)
 feedback = Feedback.new
-feedback.add_item(
-  title:        "#{status[:name]}",
-  subtitle:     "#{status[:description]}",
-  uid:          'http',
-  arg:          "#{status[:info]}",
-  autocomplete: 'HTTP',
-  icon:         {
-    type: 'filetype',
-    name: 'icon.png'
-  }
-)
+suggestions.each do |suggestion|
+
+  status = @statuses[suggestion]
+  feedback.add_item(
+    title:        suggestion + ": #{status[:name]}",
+    subtitle:     "#{status[:description]}",
+    arg:          "#{status[:info]}",
+    autocomplete: 'HTTP',
+    icon:         {
+      type: 'filetype',
+      name: 'icon.png'
+    }
+  )
+end
 puts feedback.to_xml
