@@ -272,7 +272,7 @@
   # '449' => {
   #   name:        'Retry With (Microsoft)',
   #   description: 'The request should be retried after performing the appropriate action.',
-  #   info:        'http://en.wikipedia.org/wiki/List_of_HTTP_status_codes#4xx_Client_Error'
+  #   info:        'https://msdn.microsoft.com/en-us/library/windows/desktop/aa384325(v=vs.85).aspx#HTTP_STATUS_RETRY_WITH'
   # },
   # '450' => {
   #   name:        'Blocked by Windows Parental Controls (Microsoft)',
@@ -280,7 +280,7 @@
   #   info:        'http://en.wikipedia.org/wiki/List_of_HTTP_status_codes#4xx_Client_Error'
   # },
   # '451' => {
-  #   name:        'Redirect (Microsof)',
+  #   name:        'Redirect (Microsoft)',
   #   description: 'The client is supposed to re-run the HTTP Autodiscovery protocol to find a better suited server.',
   #   info:        'http://en.wikipedia.org/wiki/List_of_HTTP_status_codes#4xx_Client_Error'
   # },
