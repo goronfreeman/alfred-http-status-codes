@@ -1,8 +1,6 @@
 # alfred-http-status-codes
 
-<div style="text-align:center" markdown="1">
-  ![Status code info](http://i.imgur.com/N7FlAwl.png)
-</div>
+![Status code info](http://i.imgur.com/N7FlAwl.png)
 
 Use Alfred search to get quick info about HTTP status codes, and hit enter to get taken to more in-depth information about each code.
 
