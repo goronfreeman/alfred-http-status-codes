@@ -13,9 +13,10 @@ To invoke **alfred-http-status-codes**, simply type `http` followed by the statu
 ## Credits
 
 Thank you to:
-* [konapun] for his autocomplete library
+* [konapun] for his [autocomplete] library
 * [lrrfantasy] for his [alfred-feedback-xml-generation][xml] library
 * Icon made by [Freepik] from [www.flaticon.com][flaticon]
+* [Stephanie Hoogerwerf][stephanie] for icon tweaks
 
 [releases]: https://github.com/goronfreeman/alfred-http-status-codes/releases
 
@@ -25,6 +26,10 @@ Thank you to:
 
 [konapun]: https://github.com/konapun
 
+[autocomplete]: https://github.com/konapun/autocomplete
+
 [freepik]: http://www.freepik.com
 
 [flaticon]: http://www.flaticon.com
+
+[stephanie]: http://stephaniehoogerwerf.com/
