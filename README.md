@@ -26,3 +26,5 @@ Thank you to:
 [freepik]: http://www.freepik.com
 [flaticon]: http://www.flaticon.com
 [stephanie]: http://stephaniehoogerwerf.com/
+
+![You're gonna shine](https://cloud.githubusercontent.com/assets/498643/7970023/cd2f676e-0a00-11e5-9597-627feafe931a.png)
