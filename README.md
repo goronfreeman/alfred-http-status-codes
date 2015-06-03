@@ -13,7 +13,7 @@ To invoke **alfred-http-status-codes**, simply type `http` followed by the statu
 ## Credits
 
 Thank you to:
-* [konapun] for his [autocomplete] library
+* [konapun] for his [autocomplete] library and the project mascot
 * [lrrfantasy] for his [alfred-feedback-xml-generation][xml] library
 * Icon made by [Freepik] from [www.flaticon.com][flaticon]
 * [Stephanie Hoogerwerf][stephanie] for icon tweaks
