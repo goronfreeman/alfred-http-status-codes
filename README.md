@@ -8,7 +8,7 @@ Use Alfred search to get quick info about HTTP status codes, and hit enter to ge
 
 ## How to use
 
-To invoke **alfred-http-status-codes**, simply type `http` followed by the status code you would like more information about. The workflow will intelligently filter the status codes as you type, so if you enter `http 2`, **alfred-http-status-codes** will display all 200 status codes, along with their name, and a brief description. If you would like more in-depth information about a particular status code, simply hit `enter` to be taken to the W3C page about that status code.
+To invoke **alfred-http-status-codes**, simply type `http` followed by the status code you would like more information about. The workflow will intelligently filter the status codes as you type, so if you enter `http 2`, **alfred-http-status-codes** will display all 200 status codes, along with their name, and a brief description. You can also search for status codes by name, so entering `http continue` will return `100: Continue`. If you would like more in-depth information about a particular status code, simply hit `enter` to be taken to the W3C page about that status code.
 
 ## Credits
 
