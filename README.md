@@ -19,17 +19,10 @@ Thank you to:
 * [Stephanie Hoogerwerf][stephanie] for icon tweaks
 
 [releases]: https://github.com/goronfreeman/alfred-http-status-codes/releases
-
-[lrrfantasy]: https://github.com/lrrfantasy
-
-[xml]: https://github.com/lrrfantasy/alfred-feedback-xml-generation
-
 [konapun]: https://github.com/konapun
-
 [autocomplete]: https://github.com/konapun/autocomplete
-
+[lrrfantasy]: https://github.com/lrrfantasy
+[xml]: https://github.com/lrrfantasy/alfred-feedback-xml-generation
 [freepik]: http://www.freepik.com
-
 [flaticon]: http://www.flaticon.com
-
 [stephanie]: http://stephaniehoogerwerf.com/
